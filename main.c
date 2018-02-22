@@ -94,7 +94,7 @@ int		main(int argc, char **argv)
 			ft_atoi(argv[4]) : 255;
 	create_map(argv[1], wnd);
 	wnd->mlx = mlx_init();
-	wnd->win = mlx_new_window(wnd->mlx, 2000, 1500, "Fukken Windaw!");
+	wnd->win = mlx_new_window(wnd->mlx, 2000, 1500, "fdf");
 	print_map(wnd);
 	mlx_key_hook(wnd->win, keyevent, wnd);
 	mlx_mouse_hook(wnd->win, mouseevent, wnd);
